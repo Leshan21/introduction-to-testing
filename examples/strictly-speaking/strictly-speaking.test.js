@@ -7,7 +7,7 @@ class Person {
 }
 
 test('objects with the same properties are equal', () => {
-  expect({ a: 1, b: 2 }).toEqual({ a: 1, b: 2 });
+  expect({ a: 1, b: 2 }).toEqual({ a: 1, b: 2 }); 
 });
 
 test('objects with different properties are not equal', () => {
