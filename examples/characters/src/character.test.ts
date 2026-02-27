@@ -28,13 +28,13 @@ describe('Character', () => {
     );
   })
 
-  it.todo('should allow you to increase the level', () => {
+  it('should allow you to increase the level', () => {
 
     character.levelUp(); // Assuming this method increases the level by 1
     expect(character.level).toBe(2); // Assuming the initial level is 1
   });
 
-  it.todo('should update the last modified date when leveling up', () => {
+  it('should update the last modified date when leveling up', () => {
 
     const initialModifiedDate = character.lastModified;
     character.levelUp();
